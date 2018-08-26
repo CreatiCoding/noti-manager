@@ -1,0 +1,34 @@
+{
+  "name": "noti-manager",
+  "version": "1.0.0",
+  "description": "This is project that noti about web information automatically.",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "node-phantom-simple": "^2.2.4",
+    "phantomjs": "^2.1.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatiCoding/noti-manager.git"
+  },
+  "keywords": [
+    "auto",
+    "crawl",
+    "node",
+    "express"
+  ],
+  "author": "CreatiCoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreatiCoding/noti-manager/issues"
+  },
+  "homepage": "https://github.com/CreatiCoding/noti-manager#readme"
+}
